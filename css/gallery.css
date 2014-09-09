@@ -1,0 +1,50 @@
+#wrapper-gallery{
+	max-width: 100%;
+	background-color: black;
+	max-height: 250px;
+}
+
+#section{
+	width: 50%;
+	float: left;
+	background-color: black;
+}
+
+#thumb{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+	border: 2px white solid;
+}
+
+.title, .subtitle{
+	text-align: center;
+	font-size: 2em;
+}
+
+.title{
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 2.5em;
+}
+
+.subtitle{
+	margin-top: -15px;
+}
+
+p{
+	clear:both;
+}
+p, h4, ul, li{
+	background-color: black;
+	max-width: 770px;
+}
+
+li,p{
+	font-size: 1.5em;}
+
+h4{
+	font-size: 2em;
+	margin: 0;
+}

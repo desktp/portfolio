@@ -30,6 +30,7 @@
 	margin: 0 auto;
 	height: 100px;
 	width: 375px;
+
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -41,6 +42,7 @@
 	height: 100px;
 	float: left;
 	margin-right: 25px;
+	overflow: hidden;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -59,8 +61,27 @@
 	background-image:url("../img/buttons/gallery-default.gif");
 }
 
-.active{
-	background-image: url('../img/buttons/about-active.gif');
+#about-title{
+	background-image: url("../img/buttons/about.gif");
+}
+
+#skills-title{
+	background-image: url("../img/buttons/skills.gif");
+}
+
+#gallery-title{
+	background-image:url("../img/buttons/gallery.gif");
+}
+
+.button-title{
+	width: 100px;
+	height: 30px;
+	position: relative;
+	top: 100px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .icon{
@@ -68,10 +89,8 @@
 }
 
 .frame{
-	padding: 15px;
 	font-size: 5em;
 	color: white;
-	background-color: black;
 	position: relative;
 	width: 0px;
 	height: 0px;
@@ -80,38 +99,18 @@
 }
 
 .show{
+	padding: 15px;
+	background-color: black;
 	width: 770px;
-	min-height: 50px;
+	height: auto;
 	overflow: hidden;
 	visibility: visible;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
+	-webkit-transition: width 1s ease;
+	-moz-transition: width 1s ease;
+	-o-transition: width 1s ease;
+	transition: width 1s ease;
 }
 
-/*#content-about:not(:target){
-    left: 400px;
-    top: -35px;
-}
-
-#content-skills:not(:target){
-    left: 500px;
-    top: -60px;
-}
-
-#content-gallery:not(:target){
-    left: 600px;
-    top: -90px;
-}
-
-#content-skills:target{
-	top: -30px;
-}
-
-#content-gallery:target{
-	top: -60px;
-}*/
 
 p{
 	clear:both;
@@ -149,41 +148,6 @@ h4{
 	display: list-item;
 	list-style: inside disc;
 	margin-left: 30px;
-}
-
-#wrapper-gallery{
-	max-width: 100%;
-	background-color: black;
-	max-height: 250px;
-}
-
-#section{
-	width: 50%;
-	float: left;
-	background-color: black;
-}
-
-#thumb{
-	width: 150px;
-	height: 150px;
-	margin: 0 auto;
-	display: block;
-	border: 2px white solid;
-}
-
-.title, .subtitle{
-	text-align: center;
-	font-size: 2em;
-}
-
-.title{
-	font-weight: bold;
-	margin-top: 5px;
-	font-size: 2.5em;
-}
-
-.subtitle{
-	margin-top: -15px;
 }
 
 ::-webkit-scrollbar {
