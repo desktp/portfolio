@@ -1,0 +1,88 @@
+
+@media only screen and (max-width : 640px) {
+	body{
+		margin: 0;
+		width: 100%;
+		overflow: auto;
+	}
+
+	#desktp{
+		position: relative;
+		max-width: 100%;
+		height: auto;
+	}
+
+	#buttons{
+		display: none;
+	}
+
+	.icon{
+		display: block;
+		width: 100px;
+		height: 100px;
+		position: relative;
+		margin-left: 0px;
+	}
+
+	.frame{
+		padding: 5px;
+		max-width: 100%;
+		min-height: 50px;
+		position: relative;
+		top: 0;
+		margin-bottom: 20px;
+		overflow-y: hidden;
+		overflow-x: auto;
+	}
+
+	.frame:not(:target){
+		display: block;
+	}
+
+	p, h4, ul, li{
+		background-color: black;
+		max-width: 100%;
+		font-size: 1em;
+	}
+	
+	#profile{
+		float:none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#content-about ul{
+		margin-top: 0;
+		margin-bottom: 15px;
+		
+	}
+	
+	#section{
+		max-width: 50%;
+		overflow-x: auto;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width : 800px) {
+	body{
+		width: 640px;
+		margin: 0;
+	}
+	#desktp{
+		width: 640px;
+	}
+
+	#buttons{
+		top: 240px;
+	}
+	.frame{
+		width: 610px;
+		top: 340px;
+	}
+
+	p, h4, ul, li{
+		background-color: black;
+		max-width: 610px;
+	}
+
+}

@@ -1,0 +1,53 @@
+#about{
+	background-image: url("../img/buttons/about-default.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+/*#about:hover{
+	background-image: url("../img/about-hover.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}*/
+
+/*#about:active{
+	background-image: url("../img/about-hover.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}*/
+
+#skills{
+	background-image: url("../img/buttons/skills-default.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+/*#skills:hover{
+	background-image: url("../img/skills-hover.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}*/
+
+/*#skills:active{
+	background-image:url("../img/skills-hover.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+*/
+#gallery{
+	background-image:url("../img/buttons/gallery-default.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+/*
+#gallery:hover{
+	background-image:url("../img/gallery-hover.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}*/
+
+/*#gallery:active{
+	background-image:url("../img/gallery-hover.gif");
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}*/
