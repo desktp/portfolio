@@ -7,8 +7,6 @@
 }
 
 #logo{
-	display: block;
-	text-align: center;
 }
 
 
@@ -16,8 +14,8 @@
 #desktp{
 	position: relative;
 	max-width: 800px;
-	/* display: block; */
-	/* text-align: center; */
+	display: block;
+	margin: 0 auto;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -30,7 +28,6 @@
 	margin: 0 auto;
 	height: 100px;
 	width: 375px;
-
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;

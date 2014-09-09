@@ -26,17 +26,15 @@
 
 	.frame{
 		padding: 5px;
-		max-width: 100%;
-		min-height: 50px;
+		width: 100%;
+		height: auto;
 		position: relative;
 		top: 0;
 		margin-bottom: 20px;
+		background-color: black;
 		overflow-y: hidden;
 		overflow-x: auto;
-	}
-
-	.frame:not(:target){
-		display: block;
+		visibility: visible;
 	}
 
 	p, h4, ul, li{
@@ -54,6 +52,7 @@
 	#content-about ul{
 		margin-top: 0;
 		margin-bottom: 15px;
+		font-size: 0.5em;
 		
 	}
 	
@@ -66,18 +65,14 @@
 @media only screen and (min-width: 641px) and (max-width : 800px) {
 	body{
 		width: 640px;
-		margin: 0;
+		margin: 0 auto;
 	}
 	#desktp{
 		width: 640px;
 	}
 
-	#buttons{
-		top: 240px;
-	}
-	.frame{
+	.show{
 		width: 610px;
-		top: 340px;
 	}
 
 	p, h4, ul, li{
