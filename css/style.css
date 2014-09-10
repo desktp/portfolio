@@ -158,7 +158,3 @@ h4{
 ::-webkit-scrollbar-thumb {
     background: rgba(122,122,122,0.8); 
 }
-
-::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(122,122,122,0.4); 
-}
