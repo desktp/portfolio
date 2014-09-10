@@ -18,7 +18,7 @@ function addClass(elem, className){
 }
 
 function onclick(evt){
-  if(this.href.substring(0,4) != 'http')
+  if(this.href.substring(0,24) == 'http://www.desktp.com.br')
   {
     evt.preventDefault();
     ChangeActiveFrame(this.hash.substring(1));
